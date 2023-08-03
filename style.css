@@ -120,3 +120,45 @@ span:hover{
     color: #04aa28;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 1191px){
+    .container{
+        margin: 3rem 7rem;
+        border-radius: 35px;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1055px){
+    #logo{
+        width: 18rem;
+        margin: 38px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 988px){
+    .container{
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+    #logo{
+        margin: 18px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #logo{
+        width: 10em;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .container{
+        margin: 3rem 3rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    
+}
