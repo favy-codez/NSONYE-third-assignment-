@@ -147,18 +147,54 @@ span:hover{
     }
 }
 
+@media screen and (max-width: 912px){
+    .container{
+        margin: 6rem 7rem ;
+        padding: 7rem 4rem;
+    }
+    .form{
+        margin: 0 0 4rem 0;
+    }
+    .container{
+        gap: 5rem;
+    }
+    .mail{
+        border-radius: 25px;
+    }
+    .mail2{
+        margin: 40px 0;
+        border-radius: 25px;
+    }
+}
+
 @media screen and (max-width: 540px){
     #logo{
         width: 10em;
     }
     h1{
-        font-size: 22px;
+        font-size: 33px;
     }
     .container{
-        margin: 3rem 3rem;
+        margin: 4rem 4rem ;
+        padding: 5rem 2rem;
     }
 }
 
-@media screen and (max-width: 540px){
-    
+@media screen and (max-width: 414px){
+    .container{
+        margin: 4.8rem 1rem;
+        padding: 4rem 1rem;
+    }
+    #logo{
+        margin: 14px 0 0 0;
+    }
+    .mail{
+        border-radius: 20px;
+    }
+    .mail2{
+        border-radius: 20px;
+    }
+    input[type=button]{
+        border-radius: 20px;
+    }
 }
