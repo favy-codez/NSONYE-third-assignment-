@@ -5,15 +5,23 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+body{
+    background: rgb(157,63,251);
+    background: radial-gradient(circle, rgba(157,63,251,1) 0%, rgba(183,70,252,0.7931547619047619) 49%);
+}
+
 .container{
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 5rem;
-    gap: 17rem;
+    padding: 4rem 2rem;
+    margin: 4rem 9rem;
+    gap: 10rem;
     text-align: center;
     font-size: 18px;
-    font-weight: 800;
+    box-sizing: 20px #000;
+    background-color: #fff;
+    border-radius: 40px;
 }
 
 #logo{
@@ -23,7 +31,7 @@
 
 input{
     width: 100%;
-    padding: 12px 20px;
+    padding: 8px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
@@ -95,7 +103,7 @@ input[type=button] {
     color: #fff;
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    padding: 15px 0;
+    padding: 13px 0;
     border-radius: 30px;
     font-size: 20px;
 }
